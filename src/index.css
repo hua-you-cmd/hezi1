@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #E4E3E0;
+  --ink: #141414;
+  --line: #141414;
+}
+
+body {
+  background-color: #E4E3E0;
+  color: #141414;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.font-mono {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.border-line {
+  border: 1px solid #141414;
+}
+
+.shadow-hard {
+  box-shadow: 4px 4px 0px #141414;
+}
+
+.shadow-hard-sm {
+  box-shadow: 2px 2px 0px #141414;
+}
+

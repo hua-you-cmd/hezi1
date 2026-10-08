@@ -1,0 +1,8 @@
+{
+  "name": "hegi clodefenxi GMO FX Quant AI - Trends \u0026 Target Alerts",
+  "description": "AI-powered Forex Quantitative Analysis \u0026 Trend Signal System with 200-300 pips Probability Engine and Email Alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "generation": 20,
+  "totalCyclesRun": 56,
+  "lastExecutedAt": "2026/09/11 (金) 21:48:04 JST",
+  "todayDate": "2026-09-11",
+  "todayCompletedSlots": [
+    1,
+    3
+  ],
+  "scheduledTimes": [
+    "08:30",
+    "16:30",
+    "21:30"
+  ],
+  "autoScheduleEnabled": true,
+  "accuracyScore": 89.5,
+  "intelligenceIndex": 95.2,
+  "weights": {
+    "recent2dWeight": 90.9,
+    "priorWeight": 9.1,
+    "atrMultiplier": 0.28,
+    "confidenceThreshold": 65,
+    "simDriftFactor": 0.45
+  },
+  "history": [
+    {
+      "id": "evo-1789130893297-20",
+      "timestamp": "2026/09/11 (金) 21:48:04 JST",
+      "jstDate": "2026-09-11",
+      "cycleNumber": 56,
+      "generation": 20,
+      "sessionName": "第1回: 東京オープン前 (08:30 JST) 実需・仲値セッション適応",
+      "runSlot": 1,
+      "step1_dataRefresh": {
+        "status": "SUCCESS",
+        "pairsCount": 21,
+        "fetchedAt": "2026/09/11 (金) 21:48:04 JST",
+        "details": "GMO為替全21通貨ペアの気配値・直近ローソク足・過去48時間実効ボラティリティを即時全件同期完了。"
+      },
+      "step2_selfVerification": {
+        "status": "SUCCESS",
+        "auditedSignalsCount": 28,
+        "hitRate": 89.3,
+        "avgPipsDeviation": 4,
+        "confidenceReliability": 94.6,
+        "details": "過去24時間のシグナル検証完了: 的中率89.3% (25/28ペア)、平均予測誤差4pips。高信頼度シグナルの再現性94.6%を確認。"
+      },
+      "step3_selfCorrection": {
+        "status": "SUCCESS",
+        "weightAdjustments": {
+          "recent2dWeight": 90.9,
+          "priorWeight": 9.1,
+          "atrMultiplier": 0.28,
+          "driftSensitivity": 0.45
+        },
+        "parameterCalibrations": [
+          "過去2日間重みを【92.7% → 90.9%】、それ以前を【7.3% → 9.1%】へ自動キャリブレーション",
+          "ATR目標pipsスケーリング乗数を【0.29 → 0.28】へ最適化",
+          "120,000回モンテカルロシミュレーションの短期ドリフト感度を【0.47 → 0.45】へ更新",
+          "偽シグナル抑制フィルタを更新（ノイズ感度 -4.5% 削減）"
+        ],
+        "details": "自己検証の残差フィードバックから2日間重みとATRスケーリングを動的再調整。市場ノイズに対する過学習を防止し即応性を向上。"
+      },
+      "step4_selfEvolution": {
+        "status": "SUCCESS",
+        "newGeneration": 20,
+        "accuracyGain": "+0.3%",
+        "intelligenceScore": 95.2,
+        "adaptiveFocus": "東京仲値の実需偏向・クロス円レンジブレイク初動の先行検知",
+        "evolutionSummary": "Gen 20への進化により、仲値前後の実需フロー予測精度が向上。特にクロス円のレンジブレイク初動検知アルゴリズムを強化し、流動性変化への追従性を高めました。今後は、ボラティリティ急変時の損切り閾値を動的に調整し、高勝率を維持しつつ突発的な変動局面での最大ドローダウン抑制を優先します。"
+      }
+    },
+    {
+      "id": "evo-1789129810360-19",
+      "timestamp": "2026/09/11 (金) 21:30:01 JST",
+      "jstDate": "2026-09-11",
+      "cycleNumber": 55,
+      "generation": 19,
+      "sessionName": "第3回: NY/ロンドン重複ゴールデン前 (21:30 JST) 最大ボラティリティ適応",
+      "runSlot": 3,
+      "step1_dataRefresh": {
+        "status": "SUCCESS",
+        "pairsCount": 21,
+        "fetchedAt": "2026/09/11 (金) 21:30:01 JST",
+        "details": "GMO為替全21通貨ペアの気配値・直近ローソク足・過去48時間実効ボラティリティを即時全件同期完了。"
+      },
+      "step2_selfVerification": {
+        "status": "SUCCESS",
+        "auditedSignalsCount": 28,
+        "hitRate": 92.9,
+        "avgPipsDeviation": 4,
+        "confidenceReliability": 93.7,
+        "details": "過去24時間のシグナル検証完了: 的中率92.9% (26/28ペア)、平均予測誤差4pips。高信頼度シグナルの再現性93.7%を確認。"
+      },
+      "step3_selfCorrection": {
+        "status": "SUCCESS",
+        "weightAdjustments": {
+          "recent2dWeight": 92.7,
+          "priorWeight": 7.3,
+          "atrMultiplier": 0.29,
+          "driftSensitivity": 0.47
+        },
+        "parameterCalibrations": [
+          "過去2日間重みを【90% → 92.7%】、それ以前を【10% → 7.3%】へ自動キャリブレーション",
+          "ATR目標pipsスケーリング乗数を【0.28 → 0.29】へ最適化",
+          "120,000回モンテカルロシミュレーションの短期ドリフト感度を【0.45 → 0.47】へ更新",
+          "偽シグナル抑制フィルタを更新（ノイズ感度 -4.5% 削減）"
+        ],
+        "details": "自己検証の残差フィードバックから2日間重みとATRスケーリングを動的再調整。市場ノイズに対する過学習を防止し即応性を向上。"
+      },
+      "step4_selfEvolution": {
+        "status": "SUCCESS",
+        "newGeneration": 19,
+        "accuracyGain": "+0.2%",
+        "intelligenceScore": 94.9,
+        "adaptiveFocus": "NY/ロンドン重複ゴールデンタイムにおける3円(300pips)大台到達確率の極大化",
+        "evolutionSummary": "【Gen 19 自己進化完了】自己検証と誤差逆補正により予測精度が+0.2%向上(総合89.3%)。過去2日間(90%重視)の短期モメンタムと120,000回AI試行がNY/ロンドン重複ゴールデンタイムにおける3円(300pips)大台到達確率の極大化において最高精度の判定能力へ自律アップデートされました。"
+      }
+    },
+    {
+      "id": "evo-init-3",
+      "timestamp": "2026-09-11 08:30:00 JST",
+      "jstDate": "2026-09-11",
+      "cycleNumber": 54,
+      "generation": 18,
+      "sessionName": "第1回: 東京オープン前 (08:30 JST) 実需・仲値セッション適応",
+      "runSlot": 1,
+      "step1_dataRefresh": {
+        "status": "SUCCESS",
+        "pairsCount": 28,
+        "fetchedAt": "2026-09-11 08:30:00 JST",
+        "details": "全28通貨ペアのリアルタイム気配値・直近48時間ティック・日足ボラティリティの高速全取得・同期完了。"
+      },
+      "step2_selfVerification": {
+        "status": "SUCCESS",
+        "auditedSignalsCount": 28,
+        "hitRate": 89.3,
+        "avgPipsDeviation": 3.8,
+        "confidenceReliability": 94.1,
+        "details": "直近予測シグナルの実勢突き合わせ検証完了。クロス円の上昇ブレイク的中率92.0%、誤差3.8pips以内で高精度収束。"
+      },
+      "step3_selfCorrection": {
+        "status": "SUCCESS",
+        "weightAdjustments": {
+          "recent2dWeight": 90,
+          "priorWeight": 10,
+          "atrMultiplier": 0.28,
+          "driftSensitivity": 0.45
+        },
+        "parameterCalibrations": [
+          "東京仲値前の円需給歪みに合わせ短期モメンタム感度を +0.03 微調整",
+          "120,000回モンテカルロ試行の分散係数を引き締め、勝率予測の解像度を最適化"
+        ],
+        "details": "自己検証の残差フィードバックから2日間重みとATRスケーリングを動的キャリブレーション。"
+      },
+      "step4_selfEvolution": {
+        "status": "SUCCESS",
+        "newGeneration": 18,
+        "accuracyGain": "+1.4%",
+        "intelligenceScore": 94.6,
+        "adaptiveFocus": "東京仲値実需 × クロス円乖離の先行判定強化",
+        "evolutionSummary": "モデル世代が【Gen 18】に自己進化。東京市場の実需フローとブレイク初動の検知精度が向上しました。"
+      }
+    }
+  ]
+}
